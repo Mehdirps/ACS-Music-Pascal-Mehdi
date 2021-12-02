@@ -1,0 +1,44 @@
+body{
+    background-image: url(../img/fondpagebenoit.png);
+    margin-top: 0;
+}
+.logotitre{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    color: white; 
+}
+.connect{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20%;
+    margin: 10%;
+    margin-top: 100px;
+}
+.connect div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: .5rem;
+}
+.connect label{
+    padding: .5rem;
+}
+.connect input{
+    background-color: #C4C4C4;
+    height: 30px;
+    border-radius: 50px;
+}
+.create a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.createaccount{
+    text-align: center;
+    margin-top: 1rem;
+}
+.createaccount a{
+    color: white;
+    text-decoration: none;
+}

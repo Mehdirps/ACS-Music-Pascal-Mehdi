@@ -1,0 +1,45 @@
+body {
+    background-image: url(../img/fondpagebenoit.png);
+}
+a{
+    text-decoration: none;
+}
+.logotitre{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    color: white; 
+}
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px !important;
+    justify-content: space-between;
+    margin-top: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.link {
+    background-color: #334087;
+    color: white;
+   
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#connect {
+    padding: 10px;
+}
+
+#créer {
+    padding: 10px;
+}
+.cle{
+    width: 100px;
+    margin-top: 4rem;
+}

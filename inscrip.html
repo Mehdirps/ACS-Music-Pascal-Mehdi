@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <meta name="description"
+        content="Votre application de musique préférée, retrouvez tous vos titres, mais aussi un catalogue sans limite de toute la musique qui existe">
+    <link rel="stylesheet" href="css/inscrip.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="js/inscrip.js" defer></script>
+</head>
+
+<body>
+    <div class="logotitre">
+        <img src="img/logo.png" alt="logo">
+        <h1 class="titre">PaDi'sMusic</h1>
+    </div>
+    <main class="connectmodal">
+        <section class="connect" style="text-align: center;">
+            <p class="alerte"></p>
+            <div class="pseudo">
+                <label for="name">Pseudo*</label>
+                <input type="text" name="pseudo" id="pseudo">
+            </div>
+            <div class="mail">
+                <label for="name">Adresse e-Mail*</label>
+                <input type="text" name="mail" id="mail">
+            </div>
+            <div class="password">
+                <label for="name">Mot de passe*</label>
+                <input type="password" name="password" id="password">
+                <p>Votre mot de passe doit contenir au minimum :</p>
+                <div class="verif">
+                    <span class="invalide" id="miniscule">1 minuscule</span>
+                    <span class="invalide" id="majuscule">1 majuscule</span>
+                    <span class="invalide" id="chiffre">1 chiffre</span>
+                    <span class="invalide" id="special">1 caractère special</span>
+                    <span class="invalide" id="longueur">12 caractères</span>
+                </div>
+            </div>
+            <div class="create">
+                <button>M'inscrire</button>
+            </div>
+        </section>
+    </main>
+    <div class="createaccount">
+        <a href="connect.html">Me connecter</a>
+    </div>
+</body>
+
+</html>

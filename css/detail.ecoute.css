@@ -1,0 +1,199 @@
+body {
+    background-image: url(../img/fondpagebenoit.png);
+    margin: 0;
+}
+
+.titrelogo {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.barrerecherche {
+    text-align: center;
+}
+
+input {
+    border-radius: 50px;
+    width: 50%;
+}
+
+input::placeholder {
+    text-align: center;
+    align-items: center;
+}
+
+.album {
+    background-color: #334087;
+    margin: 8px;
+    color: white;
+}
+
+.imgalbum {
+    position: relative;
+    text-align: center;
+}
+
+.imgalbum img {
+    margin-top: 20px;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+
+.details h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.details p {
+    color: white;
+}
+
+.details img {
+    width: 100%;
+}
+
+.titres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-top: solid 1px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    font-size: .8rem;
+    align-items: center;
+    color: white;
+}
+
+.nom {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    margin-bottom: 0;
+    font-size: 3rem;
+    position: sticky;
+    bottom: 0;
+}
+
+nav {
+    position: relative;
+    background-color: #334087;
+}
+
+ul {
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.musique {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: .7rem;
+
+}
+.tracks{
+    order: 1;
+}
+.musique a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+#musique{
+    display: flex;
+    flex-direction: column;
+}
+
+/* PAGE ECOUTE */
+#ecoute {
+    margin: 10px;
+}
+
+.music {
+    background-color: #C4C4C4;
+}
+
+.lecteur {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #334087;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.lecteur img {
+    width: 70%;
+}
+.lecteur h2, .lecteur p{
+    margin: 7px;
+}
+
+.music h2,
+.music p {
+    margin: 5px;
+}
+
+.temps {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.compteur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.barre {
+    display: block;
+    width: 250px;
+    height: 5px;
+    background-color: white;
+}
+
+.logos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 3rem;
+}

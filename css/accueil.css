@@ -1,0 +1,104 @@
+body{
+    background-image: url(../img/fondpagebenoit.png);
+    margin: 0;
+}
+
+.input{
+    text-align: center;
+    
+}
+
+input {
+    width: 50%;
+    border-radius: 50px;
+}
+.caroussel {
+    background-color: #334087;
+    margin: 8px;
+    margin-top: 60px;
+}
+
+.Diaporama{
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    margin: 10px;
+}
+.Diaporama img{
+    margin-right: 10px;
+    width: 150px;
+}
+.colonne img{
+    width: 100%;
+}
+.colonne {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: #334087;
+    margin: 0;
+    padding: 10px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.2rem;
+    
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.M8DM {
+    margin: 8px;
+    margin-top: 50px;
+}
+#NAS {
+    width: 70px;
+}
+
+footer{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0;
+    font-size: 3rem;
+    position: sticky;
+    bottom: 0;
+}
+
+nav{
+    position: relative;
+    background-color: #334087;
+}
+
+ul{
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+li{
+    list-style: none;
+}

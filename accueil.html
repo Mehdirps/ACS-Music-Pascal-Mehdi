@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaDi'sMucic Ecoutés votre musique !</title>
+    <meta name="description"
+        content="Votre application de musique préférée, retrouvez tous vos titres, mais aussi un catalogue sans limite de toute la musique qui existe">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/accueil.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js" defer></script>
+    <script src="js/token.js" defer></script>
+    <script src="js/acceuil.js" defer></script>
+</head>
+
+<body>
+    <div class="head">
+        <a href="accueil.html" class="link"><img src="img/logo.png" alt="Image logo PaDi'smusic"></a>
+        <h1>PaDi'sMusic</h1>
+    </div>
+    <div class="input">
+        <input type="text" placeholder="Exemple : Cypress Hill..........">
+    </div>
+    <main>
+        <section class="caroussel">
+            <div>
+                <h2>Mes 20 derniers albums</h2>
+                <div class="Diaporama">
+                </div>
+            </div>
+        </section>
+        <section class="M8DM">
+            <div>
+                <h3>Mes 8 dernières musiques écoutées</h3>
+                <div class="colonne">
+                </div>
+            </div>
+        </section>
+    </main>
+    <template id="albums">
+        <a href="">
+            <img src="" alt="">
+        </a>
+    </template>
+    <template id="music">
+        <a href=""><img src="" alt=""></a>
+    </template>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="accueil.html"><span class="iconify" data-icon="el:home-alt"
+                            style="color: #f8f8f8;"></span></a>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="bx:bxs-playlist" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="fluent:music-note-2-play-20-filled" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="entypo:magnifying-glass" style="color: #f8f8f8;"></span>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

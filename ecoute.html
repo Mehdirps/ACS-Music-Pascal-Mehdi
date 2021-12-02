@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoutez votre musique</title>
+    <meta name="description"
+        content="Votre application de musique préférée, retrouvez tous vos titres, mais aussi un catalogue sans limite de toute la musique qui existe">
+    <link rel="stylesheet" href="css/detail.ecoute.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js" defer></script>
+    <script src="js/ecoute.js" defer></script>
+    <script src="js/token.js" defer></script>
+</head>
+
+<body>
+    <div class="titrelogo">
+        <a href="accueil.html"><img src="img/logo.png" alt="logo"></a>
+        <h1>PaDi'sMusic</h1>
+    </div>
+    <main id="ecoute">
+        <section class="lecteur">
+            <img class="jaquette" src="" alt="">
+                <h2 class="titre"></h2>
+                <p class="artiste"></p>
+        </section>
+        <div class="compteur">
+            <div class="temps">
+                <h2> 0:00</h2>
+                <h2 class="timer"></h2>
+            </div>
+            <span class="barre"></span>
+        </div>
+        <section class="logos">
+            <div class="logo">
+                <span class="iconify" data-icon="bx:bx-repeat" style="color: #f8f8f8;"></span>
+            </div>
+            <div class="logo">
+               <a id="precedent"><span class="iconify" data-icon="bx:bx-skip-previous" style="color: #f8f8f8;"></span></a>
+            </div>
+            <div class="logo">
+                <span class="iconify" data-icon="fluent:video-play-pause-24-filled" style="color: #f8f8f8;"></span>
+            </div>
+            <div class="logo">
+               <a id="suivant"><span class="iconify" data-icon="bx:bx-skip-next" style="color: #f8f8f8;"></span></a>
+            </div>
+            <div class="logo">
+               <a  id="random" href=""><span class="iconify" data-icon="el:random" style="color: #f8f8f8;"></span></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="accueil.html"><span class="iconify" data-icon="el:home-alt" style="color: #f8f8f8;"></span></a>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="bx:bxs-playlist" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="fluent:music-note-2-play-20-filled" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="entypo:magnifying-glass" style="color: #f8f8f8;"></span>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

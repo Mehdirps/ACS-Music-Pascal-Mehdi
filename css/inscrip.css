@@ -1,0 +1,66 @@
+body{
+    background-image: url(../img/fondpagebenoit.png);
+    margin-top: 0;
+    font-size: .7rem;
+}
+.logotitre{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    color: white;
+    align-items: center;  
+}
+.logotitre h1{
+    margin: 0px;
+    font-size: 2rem;
+    /* font-size: 1.2rem; */
+}
+.connect{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10%;
+    margin: 5%;
+}
+.connect .pseudo, .connect .mail, .connect .password{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* padding: .5rem; */
+}
+.connect label{
+    padding: .5rem;
+}
+.connect input{
+    background-color: #C4C4C4;
+    height: 30px;
+    border-radius: 50px;
+}
+.create a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.createaccount{
+    text-align: center;
+}
+.createaccount a{
+    color: white;
+    text-decoration: none;
+}
+.valid{
+    color: green;
+}
+.invalide{
+    color: red;
+}
+.verif{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.create{
+    margin-top: 5px;
+}
+.alerte{
+    margin: 0;
+}

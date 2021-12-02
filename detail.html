@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoutez votre album</title>
+    <meta name="description"
+        content="Votre application de musique préférée, retrouvez tous vos titres, mais aussi un catalogue sans limite de toute la musique qui existe">
+    <link rel="stylesheet" href="css/detail.ecoute.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js" defer></script>
+    <script src="js/detail.js" defer></script>
+    <script src="js/token.js" defer></script>
+</head>
+
+<body>
+    <div class="titrelogo">
+        <a href="accueil.html"><img src="img/logo.png" alt="logo"></a>
+        <h1>PaDi'sMusic</h1>
+    </div>
+    <div class="barrerecherche">
+        <input type="text" placeholder="Exemple : Johnny Hallyday ..">
+        <button><span class="iconify" data-icon="entypo:magnifying-glass" style="color: #000000;"></span></button>
+    </div>
+    <main class="album">
+        <section class="details">
+        </section>
+        <section id="musique">
+        </section>
+    </main>
+    <template id="details">
+        <h1 class="nom"></h1>
+        <h2 class="artiste"></h2>
+        <img src="" alt="">
+    </template>
+    <template id="tracks">
+        <div class="musique">
+            <p class="numero"></p>
+            <a href="">
+                <p class="tracks"></p>
+            </a>
+            <p class="timer"></p>
+        </div>
+    </template>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="accueil.html"><span class="iconify" data-icon="el:home-alt"
+                            style="color: #f8f8f8;"></span></a>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="bx:bxs-playlist" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="fluent:music-note-2-play-20-filled" style="color: #f8f8f8;"></span>
+                </li>
+                <li>
+                    <span class="iconify" data-icon="entypo:magnifying-glass" style="color: #f8f8f8;"></span>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
